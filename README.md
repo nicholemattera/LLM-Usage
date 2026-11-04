@@ -75,8 +75,9 @@ These are some common workflows in my day-to-day job. Anything italicized is whe
 1. Navigate to the project in my terminal
 2. Check out the default branch
 3. Pull the latest
-4. _Create a new chat session and use a medium model, such as Sonnet, to request the story; see the write story skill_
-5. Create the story in project management software
+4. Open the project in VSCodium
+5. _Create a new chat session and use a medium model, such as Sonnet, to request the story; see the `write-story` skill_
+6. Create the story in the project management software (e.g. Trello, Jira, Nextcloud, etc.)
 
 ### Small One-off Code Changes
 
@@ -88,7 +89,7 @@ These are some common workflows in my day-to-day job. Anything italicized is whe
 6. _Create a new chat session and use a medium model, such as Sonnet, to request the small one-off change_
 7. Review the work in VSCodium
    - Optionally, either manually make changes or go back to the chat session and request changes
-   - Optionally, if there is no story for this work, I’ll use my write story skill to have it write a story for the work done
+   - Optionally, if there is no story for this work, I’ll use my `write-story` skill to have it write a story for the work done
 8. Commit the changes and push to the remote in my terminal
 9. Create a pull request
 
@@ -100,7 +101,7 @@ These are some common workflows in my day-to-day job. Anything italicized is whe
 4. Create a new feature branch
 5. Open the project in VSCodium
 6. Pull down the story for the work to be done as a Markdown file in the root of the project
-7. _Create a new chat session and use a larger model, such as Opus, to request a plan for the changes; see the plan skill_
+7. _Create a new chat session and use a larger model, such as Opus, to request a plan for the changes; see the `write-plan` skill_
 8. Read through and review the plan
    - Optionally, either manually make changes to the plan or go back to the chat sessions and request changes
 9. Write the plan to the root of the project as `llm_short_description_of_plan.md`
