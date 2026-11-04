@@ -1,0 +1,15 @@
+llm_*.md
+llm_*.htm
+llm_*.html
+llm_*.txt
+llm_*.json
+llm_*.yml
+llm_*.yaml
+llm_*.csv
+
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+nohup.out

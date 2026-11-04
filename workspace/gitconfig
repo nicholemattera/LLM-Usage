@@ -1,0 +1,5 @@
+[user]
+	name = Nichole Mattera
+	email = me@nicholemattera.com
+[core]
+	excludesFile = ~/.gitignore
